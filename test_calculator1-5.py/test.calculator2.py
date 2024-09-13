@@ -12,7 +12,7 @@ def test_calculator():
         page.wait_for_selector('#accept-choices')  # Selektor pro tlačítko cookies
         page.click('#accept-choices')  # Kliknutí na tlačítko cookies
 
-        # Příklad: testování sčítání 5 - 1
+        # Příklad: testování odčítání 5 - 1
         page.click('span.bg-white:has-text("5")')  # Selektor pro číslo 5
         page.click('span.grey_color:has-text("–")')  # Selektor pro -
         page.click('span.bg-white:has-text("1")')  # Selektor pro číslo 1
