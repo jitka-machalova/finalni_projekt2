@@ -12,7 +12,7 @@ def test_calculator():
         page.wait_for_selector('#accept-choices')  # Selektor pro tlačítko cookies
         page.click('#accept-choices')  # Kliknutí na tlačítko cookies
 
-        # Příklad: testování sčítání 6÷2
+        # Příklad: testování dělení 6÷2
         page.click('span.bg-white:has-text("6")')  # Selektor pro číslo 6
         page.click('span.grey_color:has-text("÷")')  # Selektor pro ÷
         page.click('span.bg-white:has-text("2")')  # Selektor pro číslo 2
